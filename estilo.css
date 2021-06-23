@@ -1,0 +1,271 @@
+*{
+    text-decoration:none; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #250024;
+}
+
+li {
+    display: inline-block;
+}
+
+.Menu {
+    background-color: rgb(0, 0, 0);  
+    width: 1920px;
+    height: 80px;
+    margin: auto; 
+}      
+.Busca {
+    position: relative;
+    top: 4px;
+    left: 44%;
+    display: inline-block;
+}
+
+.Busca a {
+    color:#c1c1c1;  
+    font-size: 27px; 
+    margin-right: 20px;
+    padding: 21px 15px 19px 15px;
+}
+
+.Principal {          
+    display: inline-block;
+    font-size: 45px;
+    position: relative;
+    top: 8px;
+    left: 5%;
+}
+
+.Principal > a {
+    color:aliceblue;   
+    padding: 11px;
+}
+
+.Busca a:hover {
+    background-color:#4e0042;
+}
+
+main{
+    margin: auto;
+    width: 1920px;
+}
+
+#layout1 {
+    width: 1920px;
+    height: 867px; 
+    background-image: linear-gradient( to bottom, #000000, #000000, #000000);   
+}
+
+.FotoPerfil {
+    display: inline-block;
+    position: relative;
+    right:278px;  
+    bottom:188px; 
+    width: 469px;   
+    height:457px ;  
+}
+
+.aurea {      
+    display: inline-block;          
+    position: relative;
+    bottom: 180px;
+    left: 202px;      
+    width: 482px;
+    height: 472px;
+    border-radius: 1000px;  
+    box-shadow: 0px 0px 38px 1px #6c028d;
+    background-color: rgb(85 0 101);
+}
+
+.Introducao {          
+    width: 750px;
+    height: 350px;
+    position: relative;        
+    left: 42%;
+    top: 30%;
+    background-color: #050615;  
+    border-radius: 15px;  /*Borda da caixa */
+    box-shadow: 6px 6px 10px 5px #000000;
+}
+
+.Introducao h1 {
+    font-family: monospace;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px #000000;
+    color: rgb(148 0 177);
+    font-size: 35px;
+    height: 50px;
+    padding: 25px 0px 0px 50px;
+}
+
+.Introducao p {     
+    color:aliceblue;      
+    font-size: 30px; 
+    height: 150px;
+    padding: 5px 50px 0px 50px;
+}
+
+.botao {
+    position: relative;
+    left: 20%;
+    margin: 10px 0px 0px 50px;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;        
+    box-shadow: 0.1px 0.1px 0.1px 0.5px #39006d;
+    border: 0.3px solid #aa00ffd6;
+    border-radius: 25px;          
+    background-color: rgb(85 0 101);
+}
+
+.botao a  {
+    color: aliceblue;
+    font-size: 20px;
+    padding: 12px 0px 0px 0px;
+    display: block;
+    width: 160px;
+    height: 20px;
+}
+
+#layout1 nav {
+    width: 230px;
+    position: relative;
+    left: 335px;
+    bottom: 19%;
+}
+
+.RedeSociais img {
+    width: 38px;
+    height: 38px;
+}
+
+.RedeSociais li {
+    margin: 15px;
+}
+
+#layout2 {
+    margin: auto;
+    width: 1920px;
+    height: 1000px;
+    background-image: linear-gradient( to top, #000000, rgb(26 0 31), #000000);
+}
+
+.Exp {
+    padding: 30px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    width: 1920px;
+    height: 800px;           
+}
+
+.Exp  h1 {
+    font-family: monospace;
+    letter-spacing: 5px;         
+    text-align: center;
+    color: rgb(148 0 177);
+    font-size: 35px;              
+}
+
+.Exp img {
+    width: 100px;
+    height: 120px;
+}
+
+.Exp  ul{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 850px;
+    height:226px;           
+    left: 3%;
+}
+
+li > .js {
+    height: 120px;  
+}
+
+.Exp li {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.outrasHabilidades {
+    position: relative;
+    left: 10%;
+    padding: 25px 10px 10px 10px;
+    display: inline-block;
+    width: 370px;
+    height: 170px;
+    margin: 70px 10px 0px 210px;
+    background-color: #050615;  
+    border-radius: 15px;  
+    box-shadow: 6px 6px 10px 5px #000000;
+}
+
+.outrasHabilidades > h2 {
+    padding-bottom: 5px;
+    font-family: monospace;
+    letter-spacing: 5px;      
+    text-align: center;
+    color: rgb(148 0 177)
+}
+
+.outrasHabilidades > p {             
+    font-size: 30px; 
+    height: 150px;
+    padding: 5px 50px 0px 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.auxiliar {     
+    display: inline-block;
+    position: relative;
+    left: 8%;
+    bottom: 3.8%;
+}
+
+#layout3 {
+    margin: auto;
+    width: 1920px;
+    height: 1000px;
+    background-image: linear-gradient(to top, #000000, #1A000F, #000000);
+}
+
+#layout3 h1 {
+    position: relative;
+    top: 12%;
+    font-family: monospace;
+    letter-spacing: 5px;         
+    text-align: center;
+    color: rgb(195, 0, 153);
+    font-size: 35px;
+}
+
+.rodape {
+    margin: auto;
+    width: 1920px; 
+    height: 250px;     
+    height: 100%; 
+    background-color: #000000;      
+}
+
+.rodape h3 {
+    color:#c1c1c1;  
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100%;
+}
+
+#card:hover {
+    box-shadow: 0px 0px 70px #ff00f2;
+}
