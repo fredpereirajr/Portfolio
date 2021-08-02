@@ -1,2 +1,2 @@
 # Portfólio
-Portfólio Web utilizando HTML, CSS e JavaScript.
+Portfólio Web responsivo utilizando HTML, CSS, JavaScript.

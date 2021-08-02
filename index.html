@@ -5,95 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Frederico</title>
-    <link rel="shortcut icon" href="imagens/cropped-favicon.ico" />
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="imagens/cropped-favicon.ico"/>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<header class="Menu"> 
-        <nav>
-            <div class="Principal">
-                <a href="#layout1">Carlos Frederico</a>
-            </div>
-            <ul class="Busca">       
-                <li><a href= "#layout1" >Home</a></li>
-                <li><a href="#layout2">Experiência</a></li>
-                <li><a href="#layout3">Projetos</a></li>
-                <li><a href="">Contatos</a></li>
-                <li><a href="">CV</a></li>
-            </ul>
-        </nav>
+<header> 
+    <nav class="navbar">           
+        <a class = "logo" href="#layout1">Carlos Frederico</a>
+        <ul class="busca">       
+            <li><a href= "#layout1" >Home</a></li>
+            <li><a href="#layout2">Experiência</a></li>
+            <li><a href="#layout3">Projetos</a></li>
+            <li><a href="">Contatos</a></li>
+            <li class="teste"><a href="">CV</a></li>
+        </ul>
+        <div class="mobile-menu">
+            <div class="line1" ></div>
+            <div class="line2" ></div>
+            <div class="line3" ></div>
+        </div>
+    </nav>
+    <script src = "mobile-navbar.js" ></script>
 </header> 
 <main>
     <section id="layout1" >
-        <section class="Introducao" id = "card" >
-            <h1>APRESENTAÇÃO</h1>
-            <p>  Atualmente estudante do curso de ciência da computação na Universidade Federal de Permanbuco com interesse na área de desenvolvimento de software.  </p>
-            <div class="botao">
-                <a href="" >Contatos</a>
-            </div>  
-            <div class="botao">
-                <a href="" >Download CV</a>
-            </div>    
-        </section>
-        <div class = "aurea" ></div>
-        <img class="FotoPerfil" src="imagens/fundopreto.png" alt="Foto Carlos Frederico">   
-        <nav>
-            <ul class="RedeSociais" >          
-                <li><a target="_blank" href="https://github.com/fredpereirajr"><img src="imagens/gitroxo.png" alt="ícone GitHub"></a></li>
-                <li><a target="_blank" href="https://www.instagram.com/fredpereirajr/?hl=pt-br"><img src="imagens/instaroxo.png" alt="ícone Instagram"></a></li>
-                <li><a target="_blank" href="https://br.linkedin.com/in/carlos-frederico-pereira-j%C3%BAnior-6589b31ba"><img src="imagens/likedinroxo.png" alt="ícone LinkedIn"></a></li>
-            </ul>   
-        </nav>   
+        <div class="conteiner" >
+            <div class = "box-img" >
+                <img class="foto-perfil" src="imagens/fundopreto.png" alt="Foto Carlos Frederico">                    
+            <nav>
+                <ul class="social-media-list" >          
+                    <li><a target="_blank" href="https://github.com/fredpereirajr"><img src="imagens/gitroxo.png" alt="ícone GitHub"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/fredpereirajr/?hl=pt-br"><img src="imagens/instaroxo.png" alt="ícone Instagram"></a></li>
+                    <li><a target="_blank" href="https://br.linkedin.com/in/carlos-frederico-pereira-j%C3%BAnior-6589b31ba"><img src="imagens/likedinroxo.png" alt="ícone LinkedIn"></a></li>
+                </ul>   
+            </nav>  
+            </div>       
+            <div class="intro" id = "card" >
+                <h1>APRESENTAÇÃO</h1>
+                <p>  Atualmente estudante do curso de ciência da computação na Universidade Federal de Permanbuco com interesse na área de desenvolvimento de software.  </p>
+                <div class="bottom-block" >
+                    <div class="botao botao1" >
+                        <a href="" >Contatos</a>  <!--Criar link-->
+                    </div>  
+                    <div class="botao botao2">
+                        <a href="" >Download CV</a> <!--Criar link-->
+                    </div>  
+                </div>                
+            </div>
+        </div>
     </section>
     <section id="layout2" >
-        <section class="Exp" >
-            <h1>EXPERIÊNCIA</h1>
-            <ul>
-                <li class="linguagens" >
-                    <img src="imagens/html5icon.png" alt="Ícone HTML5">
-                </li>
-                <li class="linguagens" >
-                    <img class="css" src="imagens/css3.png" alt="Ícone CSS3">
-                </li>
-                <li class="linguagens" >
-                    <img class="js" src="imagens/javascript.png" alt="Ícone JavaScript">
-                </li>  
-                <li class="linguagens" >
-                    <img src="imagens/javaicon.png" alt="ícone Java">
-                </li>     
-            </ul>    
-           
-                <div class="outrasHabilidades" id = "card" >
-                    <h2>USABILIDADE</h2>
-                    <p> Noções básicas de usabilidade e acessibilidade</p>
-               
-                </div>
-                 
-                <div class="auxiliar" >
-                    <div class="outrasHabilidades"  id = "card" >
+        <div class="conteiner2">
+            <section class="Exp" >
+                <h1>EXPERIÊNCIA</h1>
+                <ul>
+                    <li class="linguagens" >
+                        <img src="imagens/html5icon.png" alt="Ícone HTML5">
+                    </li>
+                    <li class="linguagens" >
+                        <img class="css" src="imagens/css3.png" alt="Ícone CSS3">
+                    </li>
+                    <li class="linguagens" >
+                        <img class="js" src="imagens/javascript.png" alt="Ícone JavaScript">
+                    </li>  
+                    <li class="linguagens" >
+                        <img src="imagens/javaicon.png" alt="Ícone Java">
+                    </li>     
+                </ul>    
+
+                <div class="box-other-skills" >
+                    <div class="outrasHabilidades card-test-usb" id = "card" >
+                        <h2>USABILIDADE</h2>
+                        <p> Noções básicas de usabilidade e acessibilidade</p>
+                   
+                    </div>
+                    <div class="outrasHabilidades card-test-soft"  id = "card" >
                         <h2 >TESTE DE SOFTWARE</h2>
                         <p> Noções básicas de teste de software.</p>
-                    </div>
+                    </div>               
                 </div>
-                
-
-            </div>                            
-        </section>
+                </div>                            
+            </section>
+        </div>
     </section>
     <section id ="layout3" >
         <h1>PROJETOS</h1>
+        <h2>EM CONSTRUÇÃO...</h2>
 
     </section>
     <footer>
-        <section class="rodape" >
-            <h3>Copyright &copy; </h3>
-
+        <section class="rodape">
+            <ul>
+                <li><a href="https://www.instagram.com/fredpereirajr/?hl=pt-br" ><img src="./imagens/instafooter.png" class="insta-footer" alt="Logo Instagram"></a></li>
+                <li><a href="https://br.linkedin.com/in/carlos-frederico-pereira-j%C3%BAnior-6589b31ba"><img src="./imagens/linkedinfooter.png" class="linkedin-footer" alt="Logo Linkedin"></a></li>    
+            </ul>
+           
+            <h3>Copyright &copy;</h3>
+            
         </section>
     </footer>
 </main>
-
-
-<body>
-    
+<body>  
 </body>
 </html>
